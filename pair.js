@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `❮❮ 𝗫𝗘𝗢𝗡 𝗪𝗣 𝗕𝗢𝗧 ❯❯\n\n👉 ${string_session} 👈\n\nᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʏᴏᴜʀ ꜱᴇꜱꜱɪᴏɴ ɪᴅ,ᴄᴏᴘʏ ᴛʜɪꜱ ᴀɴᴅ ᴘᴀꜱᴛᴇ ɪɴᴛᴏ ᴄᴏɴꜰɪɢ.ᴊꜱ ꜰɪʟᴇ​\n\n✧ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴᴜꜱ ᴜꜱɪɴɢ ᴛʜɪꜱ ʟɪɴᴋ\n\nhttps://wa.me+94714932619\n\n✧ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛꜱᴀᴘᴘ ɢʀᴏᴜᴘ\n\n*https://chat.whatsapp.com/HLifuXVMklu8Q7exCNutvN*`;
-            const mg = `🛑 *​DO NOT SHARE THIS CODE TO ANYONE 🛑`;
+            const sid = `❮❮ 𝗫𝗘𝗢𝗡 𝗪𝗣 𝗕𝗢𝗧 ❯❯\n\n👉 ${string_session} 👈\nᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʏᴏᴜʀ ꜱᴇꜱꜱɪᴏɴ ɪᴅ,ᴄᴏᴘʏ ᴛʜɪꜱ ᴀɴᴅ ᴘᴀꜱᴛᴇ ɪɴᴛᴏ ᴄᴏɴꜰɪɢ.ᴊꜱ ꜰɪʟᴇ​\n\n✧ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴᴜꜱ ᴜꜱɪɴɢ ᴛʜɪꜱ ʟɪɴᴋ\n\nhttps://wa.me+94714932619\n\n✧ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛꜱᴀᴘᴘ ɢʀᴏᴜᴘ\n\n*https://chat.whatsapp.com/HLifuXVMklu8Q7exCNutvN*`;
+            const mg = `🛑 *​DO NOT SHARE THIS CODE TO ANYONE* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/SenukaPenula/bot-help/refs/heads/main/pair.jpg",
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
